@@ -1,5 +1,5 @@
 <template>
-  <Tutorial />
+  <div>おはよう</div>
 </template>
 
 <script>
