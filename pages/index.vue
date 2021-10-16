@@ -1,7 +1,7 @@
 <template>
-
+  <div>おはよう</div>
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
