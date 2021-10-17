@@ -37,7 +37,7 @@
   },
   "lint-staged": {
     "*.{js,vue}": [
-      "npm run lint -- --fix",
+      "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
       "git add"
     ]
   }
