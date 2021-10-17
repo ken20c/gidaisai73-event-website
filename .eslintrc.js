@@ -20,6 +20,5 @@ module.exports = {
     'eslint:recommended',
     'prettier'
   ],
-  // add your custom rules here
   rules: {}
 }
