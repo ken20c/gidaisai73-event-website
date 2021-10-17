@@ -1,5 +1,8 @@
 <template>
-  <div>おはよう</div>
+  
+  
+  <div>
+      おはようございます</div>
 </template>
 
 <script>
