@@ -1,6 +1,5 @@
 <template>
   
-  
   <div>
       おはようございます</div>
 </template>
