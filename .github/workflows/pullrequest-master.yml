@@ -1,0 +1,72 @@
+name: pullrequest-master
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+# Eslintチェック
+  Eslint:
+    runs-on: ${{ matrix.os }}
+
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+        node: [14]
+
+    steps:
+      - name: Checkout 🛎
+        uses: actions/checkout@master
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: ${{ matrix.node }}
+          check-latest: true
+
+      - name: Cache node_modules 📦
+        uses: actions/cache@v2.1.4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Install dependencies 👨🏻‍💻
+        run: npm ci --prefer-offline --no-audit
+
+      - name: Run linter 👀
+        run: npm run lint
+
+# テストサーバーへのデプロイ
+  FTP-Deploy:
+    name: FTP-Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@master
+
+      - name: Setup node env v14
+        uses: actions/setup-node@v2.1.5
+        with:
+          node-version: "14"
+
+      - name: Build Project
+        run: |
+          npm ci
+          npm run generate
+
+      - name: List output files
+        run: ls
+
+      - name: FTP-Deploy-Action
+        uses: SamKirkland/FTP-Deploy-Action@2.0.0
+        env: # FTP環境設定
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          LOCAL_DIR: dist
+          REMOTE_DIR: ${{ secrets.FTP_DIR_DEV }}
+          ARGS: --delete
