@@ -48,7 +48,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@master
 
-      - name: Setup node env v14.18
+      - name: Setup node env v14
         uses: actions/setup-node@v2.1.5
         with:
           node-version: "14"
