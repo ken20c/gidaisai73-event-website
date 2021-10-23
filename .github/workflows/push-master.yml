@@ -25,6 +25,7 @@ jobs:
           npm run generate
 
       - name: List output files
+        working-directory: dist
         run: ls
 
       - name: FTP-Deploy-Action
