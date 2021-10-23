@@ -68,5 +68,5 @@ jobs:
           FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
           FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
           LOCAL_DIR: dist
-          REMOTE_DIR: ${{ secrets.FTP_DIR_DEV }}
+          REMOTE_DIR: www/event-dev/
           ARGS: --delete
