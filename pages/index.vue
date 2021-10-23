@@ -8,6 +8,7 @@
         <div>
           <h2 class="top-heading">企画紹介</h2>
         </div>
+        <Ad />
       </main>
     </div>
   </div>
