@@ -1,0 +1,11 @@
+body {
+    font-family: "Noto Sans JP";
+}
+
+.top-heading {
+    background-color: #FA54F4;
+    color: white;
+    padding:0.5rem 1rem;
+    margin: 1rem auto;
+    width: fit-content;
+}
