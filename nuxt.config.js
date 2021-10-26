@@ -6,7 +6,7 @@ export default {
   head: {
     title: "gidaisai73-event-website",
     htmlAttrs: {
-      lang: "en",
+      lang: "ja",
     },
     meta: [
       { charset: "utf-8" },
