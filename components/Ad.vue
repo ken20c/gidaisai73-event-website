@@ -9,12 +9,10 @@
       data-bs-ride="carousel"
     >
       <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="1000">
-          <img src="/ad/head.png" class="d-block w-100" alt="" />
-        </div>
         <div
-          v-for="ad in ads"
+          v-for="(ad, index) in ads"
           :key="ad.id"
+          :class="{ active: index == 0 }"
           class="carousel-item"
           data-bs-interval="4000"
         >
