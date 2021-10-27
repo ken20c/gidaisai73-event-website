@@ -27,15 +27,15 @@
                         </div>
                         <small>
                           <div
-                            class="contents-title stage"
                             v-show="'stage' in group"
+                            class="contents-title stage"
                           >
                             <!-- <span class="badge1 badge-stage">ステージ</span> -->
                             {{ "stage" in group ? group.stage.title : "" }}
                           </div>
                           <div
-                            class="contents-title exhibition"
                             v-show="'exhibition' in group"
+                            class="contents-title exhibition"
                           >
                             <!-- <span class="badge1 badge-exhibition"
                               >動画/作品</span
@@ -47,8 +47,8 @@
                             }}
                           </div>
                           <div
-                            class="contents-title interaction"
                             v-show="'interaction' in group"
+                            class="contents-title interaction"
                           >
                             <!-- <span class="badge1 badge-interaction">参加型</span> -->
                             {{
@@ -58,8 +58,8 @@
                             }}
                           </div>
                           <div
-                            class="contents-title store"
                             v-show="'store' in group"
+                            class="contents-title store"
                           >
                             <!-- <span class="badge1 badge-store">物販</span> -->
                             {{ "store" in group ? group.store.title : "" }}
