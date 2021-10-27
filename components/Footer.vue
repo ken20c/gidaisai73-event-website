@@ -1,8 +1,4 @@
 <template>
-    <footer>
-
-    </footer>
+  <footer></footer>
 </template>
-<style scoped>
-
-</style>
+<style scoped></style>
