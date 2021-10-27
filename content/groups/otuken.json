@@ -1,0 +1,31 @@
+{
+    "id": "ituken",
+    "name": "落語研究会",
+    "description": "落語の練習、寄席の開催、出前寄席の実施など、自由にのびのびと活動しています。岐大祭寄席を対面で開催したかったですが、今年はオンラインでの開催となりました。コロナの情勢が落ち着いてきたら、出前寄席も再開してどんどん落語をしていきます！落語をしてほしい団体や個人、イベント開催者の皆様はぜひ岐阜大学落語研究会にご連絡くださいね！",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "http://gcochiken.gozaru.jp/"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gifu_otuken"
+        },
+        {
+            "service": "YouTube",
+            "url": "https://www.youtube.com/channel/UCte9uceLm2NM4b-qPdy1PaA"
+        }
+    ],
+    "exhibition": {
+        "title": "岐大祭オンライン寄席",
+        "description": "岐大祭のために撮影した寄席の動画です。これまでに演じたことのあるネタや、新たに覚えたネタなどを披露しています。",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://youtu.be/ItuCqrGVWVw",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}

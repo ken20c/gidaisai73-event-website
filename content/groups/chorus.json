@@ -1,0 +1,41 @@
+{
+    "id": "chorus",
+    "name": "岐阜大学コーラスクラブ",
+    "description": "私たちコーラスクラブは、宗教曲や合唱曲、J-popなど様々なジャンルを楽しく歌っています。現在は制限の緩和により。zoom練習から対面練習に切り替え、マスクをしながらではありますが、顔を合わせて歌うことに喜びを持って活動しています。１月には定期演奏会を開催します。公式SNSやYouTubeをチェックしていただけたら幸いです。",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://gifuchorusweb.wixsite.com/gifu-chorus"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gcc_chorus"
+        },
+        {
+            "service": "Instagram",
+            "url": "https://www.instagram.com/gifufufu.chorus"
+        },
+        {
+            "service": "YouTube",
+            "url": "https://www.youtube.com/channel/UC9vPO8RJETk4ofsTfaE0C6Q"
+        }
+    ],
+    "stage": {
+        "title": "コーラスクラブ　定期演奏会　アトラクションステージ",
+        "description": "昨年度の定期演奏会より、ダンスやセリフがついたJ-pop曲を歌うステージをお届けします！テーマは「人生に恋あり」。昭和から平成、様々な恋愛ソングを歌っています！",
+        "url": "",
+        "premiereTime": "11:30"
+    },
+    "exhibition": {
+        "title": "岐コラ　定期演奏会！",
+        "description": "過去３年分の定期演奏会の様子です。宗教曲や合唱曲、ダンスや劇を含むJ-pop曲など様々な分野の曲を歌っています！",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://www.youtube.com/channel/UC9vPO8RJETk4ofsTfaE0C6Q",
+                "date": "",
+                "time": ""
+            }
+        ]
+    }
+}
