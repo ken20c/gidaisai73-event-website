@@ -69,6 +69,7 @@
         </div>
         <Ad />
       </main>
+      <Footer />
     </div>
   </div>
 </template>

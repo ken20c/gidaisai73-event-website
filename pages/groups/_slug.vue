@@ -12,6 +12,7 @@
         </p>
       </div>
     </main>
+    <Footer />
   </div>
 </template>
 
