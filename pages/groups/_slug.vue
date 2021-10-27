@@ -2,7 +2,7 @@
   <div>
     <Header />
     <main>
-      <h1 class="page-title">
+      <h1 class="page-title container">
         {{ group.name }}
       </h1>
       <div class="container">
@@ -12,6 +12,7 @@
         </p>
       </div>
     </main>
+    <Footer />
   </div>
 </template>
 
