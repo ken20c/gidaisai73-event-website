@@ -24,7 +24,7 @@
                       <div class="row no-gutters">
                         <div class="col-4 col-sm-4 col-md-4 col-lg-5">
                           <img
-                            :src="`/img/${group.id}.png`"
+                            :src="`/img/groups/${group.id}.png`"
                             :alt="`${group.name}のサムネイル`"
                             class="group-thumbnail img-fluid"
                           />
@@ -34,10 +34,6 @@
                             <h4 class="card-title">
                               {{ group.name }}
                             </h4>
-                            <p>
-                              {{ group.description }}
-                            </p>
-                            <small class="text-muted">ID:{{ group.id }}</small>
                           </div>
                         </div>
                       </div>
