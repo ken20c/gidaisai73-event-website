@@ -23,7 +23,7 @@
                             class="group-thumbnail img-fluid"
                           />
                         </div>
-                        <div class="col-8">
+                        <div class="col-8 my-2">
                           <div class="text-dark">
                             <div class="card-title lead">
                               {{ group.name }}
