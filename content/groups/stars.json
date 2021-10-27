@@ -1,0 +1,29 @@
+{
+    "id": "stars",
+    "name": "(仮)Stars",
+    "description": "",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": ""
+        },
+        {
+            "service": "Twitter",
+            "url": ""
+        },
+        {
+            "service": "Instagram",
+            "url": ""
+        },
+        {
+            "service": "YouTube",
+            "url": ""
+        }
+    ],
+    "stage": {
+        "title": "",
+        "description": "",
+        "url": "",
+        "premiereTime": ""
+    }
+}

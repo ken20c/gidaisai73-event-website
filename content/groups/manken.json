@@ -1,0 +1,36 @@
+{
+    "id": "manken",
+    "name": "漫画研究会",
+    "description": "岐阜大学漫画研究会（Gifu University Cartoon Circle［G.U.C.C.］）は、主に漫画・イラスト作品を制作し、部誌としてまとめて発行しています。夏にはコミックマーケットへ参加、オフセット本を頒布し、合宿も行います。学祭である岐大祭では、イラスト展示を例年行っています。",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://www2.gifu-u.ac.jp/~gcmanken/"
+        },
+        {
+            "service": "Instagram",
+            "url": "https://www.instagram.com/gucc_official/"
+        },
+        {
+            "service": "YouTube",
+            "url": "https://www.youtube.com/channel/UCEMcBPulvkSwwk_lXzEnh4w"
+        }
+    ],
+    "exhibition": {
+        "title": "イラスト展",
+        "description": "部員が制作したイラストを特設サイトにて展示します。ぜひご覧ください！",
+        "contents": [
+            {
+                "service": "団体ウェブサイト",
+                "url": "https://www2.gifu-u.ac.jp/~gcmanken/",
+                "date":"",
+                "time": ""
+            }
+        ]
+    },
+    "store": {
+        "title": "部誌販売",
+        "description": "部員が制作したオリジナル作品を収録した、昨年と今年の部誌を販売します。",
+        "store": ""
+    }
+}

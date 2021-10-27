@@ -1,0 +1,37 @@
+{
+    "id": "juggrass",
+    "name": "岐阜大学ジャグリングサークルJuggrass",
+    "description": "普段は大学構内で練習をしています。大学でジャグリングを始めた人がほとんどで、楽しく活動しています。コロナ禍で地域のお祭り等からの依頼が次々と中止になってしまう中、岐大祭で皆さんにパフォーマンスをお届けできてとても嬉しいです。",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://juggrass.wixsite.com/gifujuggling"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/juggrass2"
+        },
+        {
+            "service": "YouTube",
+            "url": "https://www.youtube.com/channel/UCn98K0cGHpcjh1xUzaAnANg"
+        }
+    ],
+    "stage": {
+        "title": "Juggrassジャグリングパフォーマンス",
+        "description": "ジャグリングのパフォーマンスを、ハロウィンの音楽に乗せてお届けします！さまざまな動画を使ったダイナミックな技をお楽しみください。",
+        "url": "",
+        "premiereTime": ""
+    },
+    "exhibition": {
+        "title": "ジャグリングサークルJuggrass PV",
+        "description": "ジャグリングサークルJuggrassの2021年度のPVを展示します。サークルの様子やさまざまな道具を用いたパフォーマンスが見られます！",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://www.youtube.com/watch?v=5BVH0tZX6ww",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}

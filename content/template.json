@@ -1,0 +1,58 @@
+{
+    "id": "",
+    "name": "",
+    "description": "",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": ""
+        },
+        {
+            "service": "Twitter",
+            "url": ""
+        },
+        {
+            "service": "Instagram",
+            "url": ""
+        },
+        {
+            "service": "YouTube",
+            "url": ""
+        }
+    ],
+    "stage": {
+        "title": "",
+        "description": "",
+        "url": "",
+        "premiereTime": ""
+    },
+    "exhibition": {
+        "title": "",
+        "description": "",
+        "contents": [
+            {
+                "service": "",
+                "url": "",
+                "date":"",
+                "time": ""
+            }
+        ]
+    },
+    "interaction": {
+        "title": "",
+        "description": "",
+        "contents": [
+            {
+                "title": "",
+                "url": "",
+                "time": "",
+                "announce": ""
+            }
+        ]
+    },
+    "store": {
+        "title": "",
+        "description": "",
+        "store": ""
+    }
+}

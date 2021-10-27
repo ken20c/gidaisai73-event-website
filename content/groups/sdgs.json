@@ -1,0 +1,35 @@
+{
+    "id": "sdgs",
+    "name": "(仮)SDGs分からせ隊",
+    "description": "",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": ""
+        },
+        {
+            "service": "Twitter",
+            "url": ""
+        },
+        {
+            "service": "Instagram",
+            "url": ""
+        },
+        {
+            "service": "YouTube",
+            "url": ""
+        }
+    ],
+    "exhibition": {
+        "title": "",
+        "description": "",
+        "contents": [
+            {
+                "service": "PDFで配布",
+                "url": "https://drive.google.com/drive/folders/1q8Ix9LI07xLj7bIPjDv0grk_98ZFW9FV",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}

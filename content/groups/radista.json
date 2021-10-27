@@ -1,0 +1,31 @@
+{
+    "id": "radista",
+    "name": "学生放送研究会ラジスタ",
+    "description": "ラジオ番組の制作をメインに活動している放送サークルです！ぎふチャン「ココロのオト 昼レコ！」内で、毎週水曜12:45から放送されている『われら学生』を制作しています。他に大学構内や地域のお祭りでの公開生ラジオやFM GIFU「マーサチャレンジステーション」への出演、YouTube向けの動画制作、イベントMCなど行っています。",
+    "sns": [
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/radista764"
+        },
+        {
+            "service": "Instagram",
+            "url": "https://www.instagram.com/radista764/"
+        },
+        {
+            "service": "YouTube",
+            "url": "https://www.youtube.com/channel/UCSkepio_GjvEw3gQV6_dRDA"
+        }
+    ],
+    "exhibition": {
+        "title": "Powerful Station 2021",
+        "description": "ラジスタが制作した番組を2日間にわたって配信します！トーク、ゲーム、ラジオドラマ、麻雀、ねこ、...などなどバラエティに富んだ番組をお届け！",
+        "contents": [
+            {
+                "service": "特設ウェブサイト",
+                "url": "https://sites.google.com/view/powerfulstation2021",
+                "date":"10月30日(土)",
+                "time": "10:30より順次公開"
+            }
+        ]
+    }
+}

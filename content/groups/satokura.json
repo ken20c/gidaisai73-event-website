@@ -1,0 +1,41 @@
+{
+    "id": "satokura",
+    "name": "里山暮らし応援隊",
+    "description": "里山暮らし応援隊、略して「里くら」揖斐郡揖斐川町春日を拠点に棚田や茶畑などの自然資源をもとに、地域振興を行う団体です。これまでの活動では、春日地区の観光マップを作成しました。是非お手に取って見ていただきたいです。そして一度現地に足を運んでいただきたいです。景色が良くてとっても癒されますよ！新メンバーいつでも募集中！！",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://sato-kura.sakura.ne.jp/ouen-tai/"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gu_satokura"
+        },
+        {
+            "service": "Instagram",
+            "url": "https://www.instagram.com/gu_satokura/"
+        },
+        {
+            "service": "YouTube",
+            "url": "https://www.youtube.com/channel/UCz_OuIdENDkiBQv0LiBaSpw"
+        }
+    ],
+    "exhibition": {
+        "title": "紹介動画と観光マップの公開",
+        "description": "YouTubeでの団体紹介動画と作成した観光マップを展示します。",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://youtu.be/Ac5G2WvvmTc",
+                "date":"",
+                "time": ""
+            },
+            {
+                "service": "Canva",
+                "url": "https://www.canva.com/design/DAEt1sMEG2w/B2ujiSlL2L-Jke1-mZRv9A/view",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}
