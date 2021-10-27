@@ -1,0 +1,33 @@
+{
+    "id": "garnet",
+    "name": "別冊ガーネット",
+    "description": "アイドル文化の普及を目指して、アイドルコピーダンスをしているサークルです！",
+    "sns": [
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/garnet_gifu_u"
+        },
+        {
+            "service":"YouTube",
+            "url":"https://www.youtube.com/channel/UCLUlFrX82_WkuI5D6VVbiYQ"
+        }
+    ],
+    "stage": {
+        "title": "別冊ガーネット　アイドルコピーダンスパフォーマンス～岐大祭スペシャル～",
+        "description": "私たちの好きなアイドルさんの楽曲を踊ってみました！見てくださるとうれしいです！！",
+        "url": "",
+        "premiereTime": ""
+    },
+    "exhibition": {
+        "title": "別冊ガーネット　アイドルコピーダンスパフォーマンス～2021年度の活動を振り返ろう！～",
+        "description": "2021年度 別冊ガーネットの活動で踊ってみた動画の紹介です！これまでの活動を振り返ります！ぜひぜひ見てください！！",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://youtube.com/channel/UCLUlFrX82_WkuI5D6VVbiYQ",
+                "date":"10月30日(土)",
+                "time": "12:00"
+            }
+        ]
+    }
+}

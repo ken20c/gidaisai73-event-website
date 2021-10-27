@@ -1,0 +1,51 @@
+{
+    "id": "catena",
+    "name": "野生生物同好会カテナビタ",
+    "description": "カテナビタには生き物好きの学生が集まり楽しく活動しています！普段は大学周辺での鳥見と部員によるスライド発表を行う定例会を行っています。現在はコロナで実施できていませんが、休日を利用し北海道から沖縄まで様々な場所へ遠征もしています！",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "http://catena-vita.jugem.jp/"
+        },
+        {
+            "service":"Twitter",
+            "url":"https://twitter.com/catena_gifu_u"
+        }
+    ],
+    "exhibition": {
+        "title": "カテナビタ活動紹介",
+        "description": "カテナビタの詳しい活動について初めての方にも分かりやすく紹介します。",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://youtu.be/ckVn8A8qxoI",
+                "time": ""
+            }
+        ]
+    },
+    "interaction": {
+        "title": "剥製紹介",
+        "description": "剥製の基本知識やカテナビタでこれまで作成した剥製について紹介します。両日ともに16時からのスタートです！",
+        "contents": [
+            {
+                "service":"zoomミーティング",
+                "url": "https://zoom.us/j/97011414338?pwd=eTBnNWIzTERMbGFEdDNxRWdGZkk4UT09",
+                "date":"10月30日(土)",
+                "time": "16:00",
+                "announce": "ミーティングID: 970 1141 4338 パスコード: catena"
+            },
+            {
+                "service":"zoomミーティング",
+                "url": "https://zoom.us/j/99184471133?pwd=eWkyaDIvVFhmTkZTKzM3VUZTTklxUT09",
+                "date":"10月31日(日)",
+                "time": "16:00",
+                "announce": "ミーティングID: 991 8447 1133 パスコード: catena"
+            }
+        ]
+    },
+    "store": {
+        "title": "カテナビタグッズ販売",
+        "description": "くるみストラップ、部員が撮影した写真で作ったポストカード・缶バッジを販売します。",
+        "store": "https://catenagifuu.base.shop/"
+    }
+}

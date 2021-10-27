@@ -1,0 +1,27 @@
+{
+    "id": "edu_art",
+    "name": "岐阜大学美術教育講座",
+    "description": "岐阜大学美術教育講座です。",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://www1.gifu-u.ac.jp/~bijutu/"
+        },
+        {
+            "service": "instagram",
+            "url": "https://www.instagram.com/gu_edu_art/"
+        }
+    ],
+    "exhibition": {
+        "title": "学祭展2021",
+        "description": "美術教育講座で制作したWebサイトとインスタグラムにおいて、作品を展示しています。授業作品と個人制作作品を出展しています。",
+        "contents": [
+            {
+                "service": "ウェブサイト",
+                "url": "https://www1.gifu-u.ac.jp/~bijutu/gakusai2021",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}

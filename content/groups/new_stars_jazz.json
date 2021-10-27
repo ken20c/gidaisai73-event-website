@@ -1,0 +1,35 @@
+{
+    "id": "new_stars_jazz",
+    "name": "軽音楽部　New Stars Jazz Orchestra",
+    "description": "私たちNew Stars Jazz Orchestra は普段ビックバンドでジャズを演奏していますが、今回は”コンボ“という少人数の形式でジャズ演奏します。ビックバンドとはまた違うジャズのお洒落な雰囲気を味わってみてください。",
+    "sns": [
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/new_stars_jazz"
+        },
+        {
+            "service": "Instagram",
+            "url": "https://www.instagram.com/new_stars_j.o/?utm_medium=copy_link"
+        },
+        {
+            "service": "YouTube",
+            "url": "http://www.youtube.com/channel/UCSKYhzCG4iWThhEjFqbfHtg?"
+        },
+        {
+            "service": "Facebook",
+            "url": "https://www.facebook.com/%E5%B2%90%E9%98%9C%E5%A4%A7%E5%AD%A6%E8%BB%BD%E9%9F%B3%E6%A5%BD%E9%83%A8-New-Stars-Jazz-Orchestra-169961986436586/"
+        }
+    ],
+    "exhibition": {
+        "title": "ジャズセッション",
+        "description": "コンボという少人数の形式でジャズを演奏します。",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://www.youtube.com/channel/UCSKYhzCG4iWThhEjFqbfHtg/playlists",
+                "date": "10月31日(日)",
+                "time": ""
+            }
+        ]
+    }
+}

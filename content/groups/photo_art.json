@@ -1,0 +1,35 @@
+{
+    "id": "photo_art",
+    "name": "写美部",
+    "description": "美術部と写真研究会は合同で活動しており、普段は部室で作品を作ったり、部員同士で撮影に行ったりしています。",
+    "sns": [
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gu_photoclub",
+            "description":"写真部"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gu_artclub",
+            "description":"美術部"
+        }
+    ],
+    "exhibition": {
+        "title": "写美部合同展示会",
+        "description": "写真研究会、美術部合同でオンライン展示会を行います。それぞれの公式Twitterで部員の作品を展示します。",
+        "contents": [
+            {
+                "service": "Twitter",
+                "url": "https://twitter.com/gu_photoclub",
+                "date":"",
+                "time": ""
+            },
+            {
+                "service": "Twitter",
+                "url": "https://twitter.com/gu_artclub",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}

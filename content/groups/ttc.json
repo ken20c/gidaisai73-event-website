@@ -1,0 +1,20 @@
+{
+    "id": "ttc",
+    "name": "卓球部",
+    "description": "岐阜大学卓球部です！第二体育館にて活動しています！経験者はもちろん、初心者でも楽しく全力で卓球しています！",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://gifuuttc.jimdofree.com/"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gu_ttc"
+        }
+    ],
+    "store": {
+        "title": "Tシャツ販売",
+        "description": "Tシャツを販売します。限定20着で販売いたします。サイズには限りがあるのでご了承ください。",
+        "store": ""
+    }
+}

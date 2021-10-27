@@ -1,0 +1,35 @@
+{
+    "id": "robocon",
+    "name": "(仮)岐阜大学ロボコンサークル",
+    "description": "",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": ""
+        },
+        {
+            "service": "Twitter",
+            "url": ""
+        },
+        {
+            "service": "Instagram",
+            "url": ""
+        },
+        {
+            "service": "YouTube",
+            "url": ""
+        }
+    ],
+    "exhibition": {
+        "title": "",
+        "description": "",
+        "contents": [
+            {
+                "service": "YouTube",
+                "url": "https://youtu.be/7AuZtrMmDyw",
+                "date":"",
+                "time": ""
+            }
+        ]
+    }
+}

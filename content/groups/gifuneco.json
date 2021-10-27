@@ -1,0 +1,54 @@
+{
+    "id": "gifuneco",
+    "name": "岐阜大学地域猫サークル(ぎふねこ)",
+    "description": "岐阜大学内の6匹の猫を避妊去勢し、お世話、管理する“地域猫活動”を行っています。猫が好きな人も、ちょっと苦手な人も、猫たちも快適に暮らせることを目指しています！",
+    "sns": [
+        {
+            "service": "ウェブサイト",
+            "url": "https://gifuneco.amebaownd.com/"
+        },
+        {
+            "service": "Twitter",
+            "url": "https://twitter.com/gifuneco"
+        },
+        {
+            "service": "Instagram",
+            "url": "https://www.instagram.com/gifu_neco/"
+        }
+    ],
+    "exhibition": {
+        "title": "地域猫について知ろう！",
+        "description": "皆さんは“地域猫”、”地域猫活動“という言葉は聞いたことがありますか？私たちの行っている地域猫活動について、一緒に勉強してみましょう！",
+        "contents": [
+            {
+                "service": "Instagram",
+                "url": "https://www.instagram.com/p/CVbyVRih5Oq/",
+                "date": "",
+                "time": ""
+            },
+            {
+                "service": "Instagram",
+                "url": "https://www.instagram.com/p/CVbyYpTBX_U/",
+                "date": "",
+                "time": ""
+            },
+            {
+                "service": "Instagram",
+                "url": "https://www.instagram.com/p/CVbya9XBhOy/",
+                "date": "",
+                "time": ""
+            },
+            {
+                "service": "Instagram",
+                "url": "https://www.instagram.com/p/CVbydxEhKfd/",
+                "date": "",
+                "time": ""
+            }
+        ]
+    },
+    "store": {
+        "title": "ねこ市",
+        "description": "ぎふねこの部員手作りの猫グッズ(コースター、しおり)を売っています！猫好きの皆様必見です☺️",
+        "store": "https://gifuneco.base.shop/"
+    }
+}
