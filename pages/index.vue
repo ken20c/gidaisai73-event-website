@@ -2,38 +2,32 @@
   <div>
     <Header />
     <div>
-      <h1></h1>
-      <main class="container">
-        <Carousel />
+      <main class="container-lg">
+        <Carousel class="my-2" />
         <div>
           <h2 class="top-heading">企画紹介</h2>
           <!--コンテナクラスを削除しカードの幅を大きくした-->
           <div class="">
-            <div
-              class="
-                row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3
-                g-3
-              "
-            >
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-3">
               <div v-for="group in groups" :key="group.name">
                 <!--カード全体のdiv-->
                 <div class="col">
                   <NuxtLink :to="`/groups/${group.id}`" class="card-link">
                     <!--カード本体のdiv-->
                     <div class="card shadow-sm">
-                      <div class="row no-gutters">
-                        <div class="col-4 col-sm-4 col-md-4 col-lg-5">
+                      <div class="row card-body p-0 m-0">
+                        <div class="col-4 p-0">
                           <img
                             :src="`/img/groups/${group.id}.png`"
                             :alt="`${group.name}のサムネイル`"
                             class="group-thumbnail img-fluid"
                           />
                         </div>
-                        <div class="col-8 col-sm-8 col-md-8 col-lg-7">
-                          <div class="card-body text-dark">
-                            <h4 class="card-title">
+                        <div class="col-8">
+                          <div class="text-dark">
+                            <div class="card-title lead">
                               {{ group.name }}
-                            </h4>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -58,3 +52,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.group-thumbnail {
+  width: 100%;
+}
+</style>
