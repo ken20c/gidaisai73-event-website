@@ -1,28 +1,12 @@
 {
     "id": "sdgs",
-    "name": "(仮)SDGs分からせ隊",
-    "description": "",
+    "name": "SDGs分からせ隊",
+    "description": "岐大祭でSDGsの展示をするため集まった大学生の団体です！",
     "sns": [
-        {
-            "service": "ウェブサイト",
-            "url": ""
-        },
-        {
-            "service": "Twitter",
-            "url": ""
-        },
-        {
-            "service": "Instagram",
-            "url": ""
-        },
-        {
-            "service": "YouTube",
-            "url": ""
-        }
     ],
     "exhibition": {
-        "title": "",
-        "description": "",
+        "title": "SDGs講座",
+        "description": "よく耳にしたり、身近な社会問題についてSDGsとの関わりを紹介します。大学生が興味を持てるような内容です。",
         "contents": [
             {
                 "service": "PDFで配布",

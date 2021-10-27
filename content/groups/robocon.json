@@ -1,28 +1,24 @@
 {
     "id": "robocon",
-    "name": "(仮)岐阜大学ロボコンサークル",
-    "description": "",
+    "name": "岐阜大学ロボコンサークル",
+    "description": "岐阜大学ロボコンサークルでは、NHKロボコンや、東ロボを中心とした大会に向け、日々機体を作っています。 初心者、経験者、様々な学部のメンバーが一丸となって頑張っています！ 気になる方はぜひ全共棟5階517まで！",
     "sns": [
         {
             "service": "ウェブサイト",
-            "url": ""
+            "url": "https://www2.gifu-u.ac.jp/~gcrobo/"
         },
         {
             "service": "Twitter",
-            "url": ""
-        },
-        {
-            "service": "Instagram",
-            "url": ""
+            "url": "https://twitter.com/gifu_robocon"
         },
         {
             "service": "YouTube",
-            "url": ""
+            "url": "https://youtube.com/channel/UCiSMh94V8Py5hDIFJj6rpeQ"
         }
     ],
     "exhibition": {
-        "title": "",
-        "description": "",
+        "title": "機体について、動画で説明！",
+        "description": "ロボコンサークルが作った機体について、動画で説明しています！ぜひご覧ください！",
         "contents": [
             {
                 "service": "YouTube",
