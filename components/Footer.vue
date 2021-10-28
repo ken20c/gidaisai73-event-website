@@ -1,5 +1,5 @@
 <template>
-  <footer>
+  <footer class="">
     <h3>第73回 岐阜大学祭</h3>
     <p class="paragraph">
       <NuxtLink :to="`/`">有志企画</NuxtLink><br />
