@@ -1,7 +1,7 @@
 <template>
   <footer>
+    <h3>第73回 岐阜大学祭</h3>
     <p class="paragraph">
-      第73回 岐阜大学祭<br />
       <NuxtLink :to="`/`">有志企画</NuxtLink><br />
       委員会企画<br />
       ・<NuxtLink :to="`/official/owarai`">お笑いライブ</NuxtLink><br />
@@ -26,7 +26,12 @@
 
 <style scoped>
 footer {
+  margin-top: 3rem;
+  padding-top: 0.5rem;
   background: #aa47f5;
+}
+h3 {
+  color: white;
 }
 p {
   margin: 1rem;
