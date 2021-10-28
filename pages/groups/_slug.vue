@@ -33,6 +33,10 @@
           <p>
             {{ "stage" in group ? group.stage.description : "" }}
           </p>
+          <p v-if="group.stage.premiereTime != undefined">
+            プレミア公開時刻
+            {{ group.stage.premiereTime }}
+          </p>
           <a
             v-if="group.stage.url != undefined"
             :href="group.stage.url"
@@ -51,12 +55,20 @@
           <p>
             {{ "exhibition" in group ? group.exhibition.description : "" }}
           </p>
+          <p>
+            日付
+            {{ "exhibition" in group ? group.exhibition.contents[0].date : "" }}
+            <br />
+            時刻
+            {{ "exhibition" in group ? group.exhibition.contents[0].time : "" }}
+          </p>
           <a
             v-if="group.exhibition.contents[0].url != undefined"
             :href="group.exhibition.contents[0].url"
             class="button btn-primary"
           >
-            リンクはこちら
+            {{ group.exhibition.contents[0].service }}
+            を開く
           </a>
         </div>
         <!-- 使い回し終わり -->
@@ -71,13 +83,27 @@
           <p>
             {{ "interaction" in group ? group.interaction.description : "" }}
           </p>
-          <a
-            v-if="group.interaction.contents[0].url != undefined"
-            :href="group.interaction.contents[0].url"
-            class="button btn-primary"
+          <div
+            v-for="contents in group.interaction.contents"
+            :key="contents.url"
           >
-            リンクはこちら
-          </a>
+            <p>
+              日付
+              {{ contents.date }}
+              <br />
+              時刻
+              {{ contents.time }}
+            </p>
+            <a
+              v-if="contents.url != undefined"
+              :href="contents.url"
+              class="button btn-primary"
+            >
+              {{ contents.service }}
+              を開く
+            </a>
+            <hr />
+          </div>
         </div>
         <!-- 使い回し終わり -->
         <!-- 使い回しスタート store -->
