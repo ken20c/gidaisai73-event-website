@@ -12,6 +12,7 @@
         <p>
           {{ group.description }}
         </p>
+        <!-- SNSリンクのdiv -->
         <div>
           <h2 v-show="group.sns.length > 0" class="top-heading">SNSリンク</h2>
           <div v-for="sns in group.sns" :key="sns.url">
