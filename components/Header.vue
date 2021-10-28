@@ -2,9 +2,9 @@
   <nav class="navbar navbar-expand-lg navbar-dark fix-top">
     <!-- <Logo class="header-logo" /> -->
     <div class="container-fluid">
-      <a class="navbar-brand" href="#"
-        ><img class="header-logo" src="/title.svg" alt=""
-      /></a>
+      <NuxtLink class="navbar-brand" :to="`/`">
+        <img class="header-logo" src="/title.svg" alt="" />
+      </NuxtLink>
 
       <button
         class="navbar-toggler"
