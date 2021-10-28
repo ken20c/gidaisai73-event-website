@@ -9,15 +9,15 @@
         <div>
           <img :src="`/img/groups/${group.id}.png`" alt="" class="main-img" />
         </div>
+        <p>
+          {{ group.description }}
+        </p>
         <div>
           <h2 v-show="group.sns.length > 0" class="top-heading">SNSリンク</h2>
           <div v-for="sns in group.sns" :key="sns.url">
             <a :href="sns.url" class="button btn-primary">{{ sns.service }}</a>
           </div>
         </div>
-        <p>
-          {{ group.description }}
-        </p>
       </div>
     </main>
     <Footer />
