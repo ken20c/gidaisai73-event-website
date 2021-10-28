@@ -22,7 +22,7 @@
             <hr />
           </div>
         </div>
-        <!-- stageのdiv -->
+        <!-- 使い回しスタート stage -->
         <div v-if="'stage' in group" class="contents-title stage">
           <h2 v-if="group.stage != undefined" class="top-heading">
             ステージ企画
@@ -41,6 +41,7 @@
             リンクはこちら
           </a>
         </div>
+        <!-- 使い回し終わり -->
         <!-- 使い回しスタート exhibition -->
         <div v-if="'exhibition' in group" class="contents-title exhibition">
           <h2 v-if="group.exhibition != undefined" class="top-heading">展示</h2>
@@ -51,8 +52,8 @@
             {{ "exhibition" in group ? group.exhibition.description : "" }}
           </p>
           <a
-            v-if="group.exhibition.contents.url != undefined"
-            :href="group.exhibition.contents.url"
+            v-if="group.exhibition.contents[0].url != undefined"
+            :href="group.exhibition.contents[0].url"
             class="button btn-primary"
           >
             リンクはこちら
@@ -71,8 +72,8 @@
             {{ "interaction" in group ? group.interaction.description : "" }}
           </p>
           <a
-            v-if="group.interaction.contents.url != undefined"
-            :href="group.interaction.contents.url"
+            v-if="group.interaction.contents[0].url != undefined"
+            :href="group.interaction.contents[0].url"
             class="button btn-primary"
           >
             リンクはこちら
