@@ -6,7 +6,9 @@
         {{ group.name }}
       </h1>
       <div class="container">
-        <img :src="`/img/${group.id}.png`" alt="" />
+        <div>
+          <img :src="`/img/groups/${group.id}.png`" alt="" class="main-img" />
+        </div>
         <p>
           {{ group.description }}
         </p>
@@ -27,3 +29,9 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+.main-img {
+  max-height: 15rem;
+}
+</style>
