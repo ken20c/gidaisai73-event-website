@@ -22,6 +22,34 @@
             <hr />
           </div>
         </div>
+        <!-- 各企画のdiv -->
+        <div class="exhibition">
+          <h2 class="top-heading">展示</h2>
+          <h3>
+            <strong> {{ group.exhibition.title }}</strong>
+          </h3>
+          <p>
+            {{ group.exhibition.description }}
+          </p>
+          <a :href="group.exhibition.contents.url" class="button btn-primary">
+            <!-- なぜかうまくいかない！！
+            {{ group.exhibition.contents.service }}
+            -->
+            リンクはこちら
+          </a>
+        </div>
+        <div v-show="group.interaction != undefined" class="interaction">
+          <h2 class="top-heading">参加型</h2>
+          <h3>
+            <strong> {{ group.interaction.title }}</strong>
+          </h3>
+          <p>
+            {{ group.interaction.description }}
+          </p>
+          <a :href="group.interaction.contents.url" class="button btn-primary">
+            リンクはこちら
+          </a>
+        </div>
       </div>
     </main>
     <Footer />
