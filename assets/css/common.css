@@ -22,3 +22,13 @@ h1 {
     border-radius: 0.2rem;
     padding: 0.3rem;
 }
+
+.btn-primary {
+    background-color: #fdfdfdee;
+    color: #7122fa;
+    border: solid 0.15rem #7122fa;
+}
+.btn-primary:hover {
+    background-color: #F148FB;
+    border: solid 0.15rem #7122fa;
+}
