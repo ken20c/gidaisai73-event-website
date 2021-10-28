@@ -6,7 +6,7 @@ body {
     background-color: #FA54F4;
     color: white;
     padding:0.5rem 1rem;
-    margin: 1rem auto;
+    margin: 4rem auto 1rem auto;
     width: fit-content;
     border-radius: 0.3rem; /*丸みを持たせる*/
 }
@@ -16,5 +16,19 @@ a {
 }
 
 h1 {
-    margin-top: 10px;
+    margin-top: 0.5rem;
+}
+.button {
+    border-radius: 0.2rem;
+    padding: 0.3rem;
+}
+
+.btn-primary {
+    background-color: #fdfdfdee;
+    color: #7122fa;
+    border: solid 0.15rem #7122fa;
+}
+.btn-primary:hover {
+    background-color: #F148FB;
+    border: solid 0.15rem #7122fa;
 }

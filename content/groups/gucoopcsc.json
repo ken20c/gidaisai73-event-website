@@ -4,6 +4,10 @@
     "description": "GIは岐阜大学の学生がよりよい生活を送れるように活動するサークルです！具体的には、入試に合格して、入学するまでの間に先輩や友達の輪を広げる「学部の部屋」や「友達広場」などの企画の運営や、新入生同士のつながりをサポートするDiscordの運営などを行っています！他にも岐阜大学の敷地内にあるお店や食堂を使った活動や、健康や環境に関する活動もしています！",
     "sns": [
         {
+            "service": "ウェブサイト",
+            "url": "https://www.univcoop-tokai.jp/gucoop/fresh/fresh_400.html"
+        },
+        {
             "service": "Twitter",
             "url": "https://twitter.com/gucoopcsc"
         }
