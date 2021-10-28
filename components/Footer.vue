@@ -17,9 +17,7 @@
       <NuxtLink :to="`/contact`">お問い合わせ</NuxtLink>
     </p>
     <div class="logo-wrapper">
-      <p>
-        <img src="/title.svg" class="logo" alt="" />
-      </p>
+      <img src="/title.svg" class="logo" alt="" />
     </div>
   </footer>
 </template>
