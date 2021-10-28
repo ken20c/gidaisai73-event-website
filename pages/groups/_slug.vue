@@ -22,34 +22,81 @@
             <hr />
           </div>
         </div>
-        <!-- 各企画のdiv -->
-        <div class="exhibition">
-          <h2 class="top-heading">展示</h2>
+        <!-- stageのdiv -->
+        <div v-if="'stage' in group" class="contents-title stage">
+          <h2 v-if="group.stage != undefined" class="top-heading">
+            ステージ企画
+          </h2>
           <h3>
-            <strong> {{ group.exhibition.title }}</strong>
+            {{ "stage" in group ? group.stage.title : "" }}
           </h3>
           <p>
-            {{ group.exhibition.description }}
+            {{ "stage" in group ? group.stage.description : "" }}
           </p>
-          <a :href="group.exhibition.contents.url" class="button btn-primary">
-            <!-- なぜかうまくいかない！！
-            {{ group.exhibition.contents.service }}
-            -->
+          <a
+            v-if="group.stage.url != undefined"
+            :href="group.stage.url"
+            class="button btn-primary"
+          >
             リンクはこちら
           </a>
         </div>
-        <div v-show="group.interaction != undefined" class="interaction">
-          <h2 class="top-heading">参加型</h2>
+        <!-- 使い回しスタート exhibition -->
+        <div v-if="'exhibition' in group" class="contents-title exhibition">
+          <h2 v-if="group.exhibition != undefined" class="top-heading">展示</h2>
           <h3>
-            <strong> {{ group.interaction.title }}</strong>
+            {{ "exhibition" in group ? group.exhibition.title : "" }}
           </h3>
           <p>
-            {{ group.interaction.description }}
+            {{ "exhibition" in group ? group.exhibition.description : "" }}
           </p>
-          <a :href="group.interaction.contents.url" class="button btn-primary">
+          <a
+            v-if="group.exhibition.contents.url != undefined"
+            :href="group.exhibition.contents.url"
+            class="button btn-primary"
+          >
             リンクはこちら
           </a>
         </div>
+        <!-- 使い回し終わり -->
+        <!-- 使い回しスタート interaction-->
+        <div v-if="'interaction' in group" class="contents-title interaction">
+          <h2 v-if="group.interaction != undefined" class="top-heading">
+            参加型
+          </h2>
+          <h3>
+            {{ "interaction" in group ? group.interaction.title : "" }}
+          </h3>
+          <p>
+            {{ "interaction" in group ? group.interaction.description : "" }}
+          </p>
+          <a
+            v-if="group.interaction.contents.url != undefined"
+            :href="group.interaction.contents.url"
+            class="button btn-primary"
+          >
+            リンクはこちら
+          </a>
+        </div>
+        <!-- 使い回し終わり -->
+        <!-- 使い回しスタート store -->
+        <div v-if="'store' in group" class="contents-title store">
+          <h2 v-if="group.store != undefined" class="top-heading">販売</h2>
+          <h3>
+            {{ "store" in group ? group.store.title : "" }}
+          </h3>
+          <p>
+            {{ "store" in group ? group.store.description : "" }}
+          </p>
+          <a
+            v-if="group.store.store != undefined"
+            :href="group.store.store"
+            class="button btn-primary"
+          >
+            リンクはこちら
+          </a>
+        </div>
+        <!-- 使い回し終わり -->
       </div>
     </main>
     <Footer />
