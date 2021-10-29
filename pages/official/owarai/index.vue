@@ -4,13 +4,13 @@
     <main class="container">
       <h1>お笑いライブ</h1>
       <div>
-        <img
-          src="/img/bira/owarai-bira.jpg"
-          href="https://www.youtube.com/channel/UCSpjVPFMpWoLAcHD7Rx9KDw"
-          alt=""
-        />
+        <img src="/img/bira/owarai-bira.jpg" alt="" />
       </div>
-      <Button class="btn-primary"> YouTube を開く </Button>
+      <button class="btn-primary">
+        <a href="https://www.youtube.com/channel/UCSpjVPFMpWoLAcHD7Rx9KDw">
+          YouTube を開く
+        </a>
+      </button>
     </main>
     <Footer />
   </div>
