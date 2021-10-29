@@ -14,7 +14,7 @@
         <p>※事前に「cluster」というアプリのダウンロードが必要となります。</p>
 
         <a
-          href="https://cluster.mu/w/72aa5032-ed2a-44d0-9679-66d3de4a1876"
+          href="https://cluster.mu/w/96d71018-b384-491a-8635-8eb9f5d827b7"
           target="_blank"
         >
           <button class="btn-original btn">企画に参加する</button>
