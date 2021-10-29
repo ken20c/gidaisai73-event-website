@@ -9,9 +9,9 @@
         <div>
           <img :src="`/img/groups/${group.id}.png`" alt="" class="main-img" />
         </div>
-        <p>
+        <div>
           {{ group.description }}
-        </p>
+        </div>
         <!-- SNSリンクのdiv -->
         <div>
           <h2 v-show="group.sns.length > 0" class="top-heading">SNSリンク</h2>
@@ -23,21 +23,19 @@
           </div>
         </div>
         <!-- 使い回しスタート stage -->
-        <div v-if="'stage' in group" class="contents-title stage">
-          <h2 v-if="group.stage != undefined" class="top-heading">
-            ステージ企画
-          </h2>
+        <div v-show="'stage' in group" class="contents-title stage">
+          <h2 v-show="'stage' in group" class="top-heading">ステージ企画</h2>
           <h3>
             {{ "stage" in group ? group.stage.title : "" }}
           </h3>
-          <p>
+          <div>
             {{ "stage" in group ? group.stage.description : "" }}
-          </p>
-          <p v-if="group.stage.premiereTime != undefined">
+          </div>
+          <div>
             <span>プレミア公開時刻</span>
             10月31日（日）
-            {{ group.stage.premiereTime }}
-          </p>
+            {{ "stage" in group ? group.stage.premiereTime : "" }}
+          </div>
           <button class="btn btn-original-primary disabled" disabled>
             公開までしばらくお待ちください
           </button>
@@ -50,31 +48,31 @@
         </div>
         <!-- 使い回し終わり -->
         <!-- 使い回しスタート exhibition -->
-        <div v-if="'exhibition' in group" class="contents-title exhibition">
-          <h2 v-if="group.exhibition != undefined" class="top-heading">
+        <div v-show="'exhibition' in group" class="contents-title exhibition">
+          <h2 v-show="group.exhibition != undefined" class="top-heading">
             動画/作品
           </h2>
           <h3>
             {{ "exhibition" in group ? group.exhibition.title : "" }}
           </h3>
-          <p>
+          <div>
             {{ "exhibition" in group ? group.exhibition.description : "" }}
-          </p>
+          </div>
           <div v-if="'exhibition' in group">
             <div
               v-for="content in group.exhibition.contents"
               :key="content.url"
             >
               <div>
-                <p>
+                <div>
                   <span>使用サービス：</span>
                   {{ content.service }}
-                </p>
-                <p>
+                </div>
+                <div>
                   <span v-show="content.date != ''">公開予定</span>
                   {{ content.date }}
                   {{ content.time }}
-                </p>
+                </div>
                 <a :href="content.url" target="_blank">
                   <button class="btn btn-original-primary">
                     企画を見にいく
@@ -90,26 +88,24 @@
         <!-- 使い回し終わり -->
         <!-- 使い回しスタート interaction-->
         <div v-if="'interaction' in group" class="contents-title interaction">
-          <h2 v-if="group.interaction != undefined" class="top-heading">
-            参加型
-          </h2>
+          <h2 v-show="'interaction' in group" class="top-heading">参加型</h2>
           <h3>
             {{ "interaction" in group ? group.interaction.title : "" }}
           </h3>
-          <p>
+          <div>
             {{ "interaction" in group ? group.interaction.description : "" }}
-          </p>
+          </div>
           <div v-for="content in group.interaction.contents" :key="content.url">
             <div>
-              <p>
+              <div>
                 <span>使用サービス：</span>
                 {{ content.service }}
-              </p>
-              <p>
+              </div>
+              <div>
                 <span v-show="content.date != ''">公開予定</span>
                 {{ content.date }}
                 {{ content.time }}
-              </p>
+              </div>
               <a :href="content.url" target="_blank">
                 <button class="btn btn-original-primary">企画に参加する</button>
               </a>
@@ -121,15 +117,15 @@
         </div>
         <!-- 使い回し終わり -->
         <!-- 使い回しスタート store -->
-        <div v-if="'store' in group" class="contents-title store">
-          <h2 v-if="group.store != undefined" class="top-heading">販売</h2>
+        <div v-show="'store' in group" class="contents-title store">
+          <h2 v-show="'store' in group" class="top-heading">販売</h2>
           <h3>
             {{ "store" in group ? group.store.title : "" }}
           </h3>
-          <p>
+          <div>
             {{ "store" in group ? group.store.description : "" }}
-          </p>
-          <a :href="group.store.store" target="_blank">
+          </div>
+          <a :href="'store' in group ? group.store.store : ''" target="_blank">
             <button class="btn btn-original-primary">販売ページ</button>
           </a>
           <p class="text-muted text-center">
