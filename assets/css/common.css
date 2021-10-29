@@ -24,12 +24,27 @@ h1 {
     padding: 0.3rem;
 }
 
-.btn-primary {
+.btn-original {
     background-color: #fdfdfdee;
     color: #7122fa;
     border: solid 0.15rem #7122fa;
+    width: 100%;
+    height: 3rem;
 }
-.btn-primary:hover {
-    background-color: #F148FB;
+.btn-original-primary {
+    background-color: #7122fa;
+    color: #fdfdfdee;
     border: solid 0.15rem #7122fa;
+    width: 100%;
+    height: 3rem
+}
+.btn-original:hover {
+    background-color: #7122fa;
+    color: #fdfdfdee;
+    border: solid 0.15rem #7122fa;
+}
+.btn-original.disabled ,.btn-original-primary.disabled{
+    background-color: #fdfdfdee;
+    color: #6b6b6b;
+    border: solid 0.15rem #6b6b6b;
 }

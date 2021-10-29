@@ -16,7 +16,7 @@
         <div>
           <h2 v-show="group.sns.length > 0" class="top-heading">SNSリンク</h2>
           <div v-for="sns in group.sns" :key="sns.url">
-            <a :href="sns.url" class="button btn-primary">
+            <a :href="sns.url" class="button btn-original">
               {{ sns.service }}
             </a>
             <hr />
@@ -34,42 +34,58 @@
             {{ "stage" in group ? group.stage.description : "" }}
           </p>
           <p v-if="group.stage.premiereTime != undefined">
-            プレミア公開時刻
+            <span>プレミア公開時刻</span>
+            10月31日（日）
             {{ group.stage.premiereTime }}
           </p>
-          <a
-            v-if="group.stage.url != undefined"
-            :href="group.stage.url"
-            class="button btn-primary"
-          >
-            リンクはこちら
-          </a>
+          <button class="btn btn-original-primary disabled" disabled>
+            公開までしばらくお待ちください
+          </button>
+          <!-- <a :href="group.stage.url" target="_blank">
+            <button class="btn btn-original-primary">
+              視聴する
+            </button>
+          </a> -->
+          <p class="text-muted text-center">YouTube が開きます</p>
         </div>
         <!-- 使い回し終わり -->
         <!-- 使い回しスタート exhibition -->
         <div v-if="'exhibition' in group" class="contents-title exhibition">
-          <h2 v-if="group.exhibition != undefined" class="top-heading">展示</h2>
+          <h2 v-if="group.exhibition != undefined" class="top-heading">
+            動画/作品
+          </h2>
           <h3>
             {{ "exhibition" in group ? group.exhibition.title : "" }}
           </h3>
           <p>
             {{ "exhibition" in group ? group.exhibition.description : "" }}
           </p>
-          <p>
-            日付
-            {{ "exhibition" in group ? group.exhibition.contents[0].date : "" }}
-            <br />
-            時刻
-            {{ "exhibition" in group ? group.exhibition.contents[0].time : "" }}
-          </p>
-          <a
-            v-if="group.exhibition.contents[0].url != undefined"
-            :href="group.exhibition.contents[0].url"
-            class="button btn-primary"
-          >
-            {{ group.exhibition.contents[0].service }}
-            を開く
-          </a>
+          <div v-if="'exhibition' in group">
+            <div
+              v-for="content in group.exhibition.contents"
+              :key="content.url"
+            >
+              <div>
+                <p>
+                  <span>使用サービス：</span>
+                  {{ content.service }}
+                </p>
+                <p>
+                  <span v-show="content.date != ''">公開予定</span>
+                  {{ content.date }}
+                  {{ content.time }}
+                </p>
+                <a :href="content.url" target="_blank">
+                  <button class="btn btn-original-primary">
+                    企画を見にいく
+                  </button>
+                </a>
+                <p class="text-muted text-center">
+                  {{ content.service }}が開きます
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- 使い回し終わり -->
         <!-- 使い回しスタート interaction-->
@@ -83,26 +99,24 @@
           <p>
             {{ "interaction" in group ? group.interaction.description : "" }}
           </p>
-          <div
-            v-for="contents in group.interaction.contents"
-            :key="contents.url"
-          >
-            <p>
-              日付
-              {{ contents.date }}
-              <br />
-              時刻
-              {{ contents.time }}
-            </p>
-            <a
-              v-if="contents.url != undefined"
-              :href="contents.url"
-              class="button btn-primary"
-            >
-              {{ contents.service }}
-              を開く
-            </a>
-            <hr />
+          <div v-for="content in group.interaction.contents" :key="content.url">
+            <div>
+              <p>
+                <span>使用サービス：</span>
+                {{ content.service }}
+              </p>
+              <p>
+                <span v-show="content.date != ''">公開予定</span>
+                {{ content.date }}
+                {{ content.time }}
+              </p>
+              <a :href="content.url" target="_blank">
+                <button class="btn btn-original-primary">企画に参加する</button>
+              </a>
+              <p class="text-muted text-center">
+                {{ content.service }}が開きます
+              </p>
+            </div>
           </div>
         </div>
         <!-- 使い回し終わり -->
@@ -115,13 +129,12 @@
           <p>
             {{ "store" in group ? group.store.description : "" }}
           </p>
-          <a
-            v-if="group.store.store != undefined"
-            :href="group.store.store"
-            class="button btn-primary"
-          >
-            リンクはこちら
+          <a :href="group.store.store" target="_blank">
+            <button class="btn btn-original-primary">販売ページ</button>
           </a>
+          <p class="text-muted text-center">
+            物販の購入は10月31日正午までとなります
+          </p>
         </div>
         <!-- 使い回し終わり -->
       </div>
