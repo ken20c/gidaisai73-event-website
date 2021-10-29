@@ -31,6 +31,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     "@nuxtjs/eslint-module",
     ["@nuxtjs/google-fonts", { families: { "Noto+Sans+JP": true } }],
+    '@nuxtjs/google-analytics'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -46,4 +47,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  googleAnalytics: {
+    id: 'G-XDNHH2331ZX'
+  }
 };
