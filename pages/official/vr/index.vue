@@ -10,7 +10,12 @@
           また、ステージ企画やお笑い企画などの時間にはバーチャル岐阜大学の中にある大きなスクリーンで見ることができます。みんなでライブを盛り上げましょう！<br />
           ※事前に「cluster」というアプリのダウンロードが必要となります。
         </p>
-        <button href="/" class="btn-primary">企画を見る</button>
+        <button
+          onclick="https://cluster.mu/w/72aa5032-ed2a-44d0-9679-66d3de4a1876"
+          class="btn-primary"
+        >
+          企画を見る
+        </button>
       </div>
     </main>
     <Footer />
