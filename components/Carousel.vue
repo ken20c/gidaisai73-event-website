@@ -11,17 +11,19 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/img/carusel/owarai.png" class="d-block w-100" alt="" />
+        <a href="/official/owarai/">
+          <img src="/img/carusel/owarai.png" class="d-block w-100"
+        /></a>
       </div>
       <div class="carousel-item">
-        <img src="/img/carusel/vr.png" class="d-block w-100" alt="" />
+        <a href="/official/vr/">
+          <img src="/img/carusel/vr.png" class="d-block w-100" />
+        </a>
       </div>
       <div class="carousel-item">
-        <img
-          src="/img/carusel/gidaicollection.png"
-          class="d-block w-100"
-          alt=""
-        />
+        <a href="https://www.youtube.com/channel/UCSpjVPFMpWoLAcHD7Rx9KDw">
+          <img src="/img/carusel/gidaicollection.png" class="d-block w-100" />
+        </a>
       </div>
     </div>
     <a
