@@ -3,9 +3,9 @@
     <Header />
     <main>
       <h1 class="container-lg">岐大コレクション</h1>
-      <button class="btn-primary" onclick="https://gidaicollection.studio.site">
-        公式サイトを開く
-      </button>
+      <a href="https://gidaicollection.studio.site">
+        <button class="btn-primary">公式サイトを開く</button>
+      </a>
     </main>
     <Footer />
   </div>
