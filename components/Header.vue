@@ -18,7 +18,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div id="navbarNavAltMarkup" class="collapse navbar-collapse">
-        <div class="navbar-nav">
+        <!-- <div class="navbar-nav">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
           <a class="nav-link" href="#">企画一覧</a>
           <a
@@ -28,7 +28,7 @@
             aria-disabled="true"
             >企画検索</a
           >
-        </div>
+        </div> -->
       </div>
     </div>
     <script

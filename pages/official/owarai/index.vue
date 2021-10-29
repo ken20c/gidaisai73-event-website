@@ -6,11 +6,12 @@
       <div>
         <img src="/img/bira/owarai-bira.jpg" alt="" />
       </div>
-      <button class="btn-primary">
-        <a href="https://www.youtube.com/channel/UCSpjVPFMpWoLAcHD7Rx9KDw">
-          YouTube を開く
-        </a>
-      </button>
+      <a
+        href="https://www.youtube.com/channel/UCSpjVPFMpWoLAcHD7Rx9KDw"
+        target="_blank"
+      >
+        <button class="btn-original btn">YouTube を開く</button>
+      </a>
     </main>
     <Footer />
   </div>

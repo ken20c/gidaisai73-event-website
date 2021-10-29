@@ -1,6 +1,6 @@
 {
     "id": "stars",
-    "name": "(仮)Stars",
+    "name": "Stars",
     "description": "",
     "sns": [
         {
@@ -21,7 +21,7 @@
         }
     ],
     "stage": {
-        "title": "",
+        "title": "準備中",
         "description": "",
         "url": "",
         "premiereTime": "14:10"
