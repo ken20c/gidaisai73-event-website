@@ -12,64 +12,69 @@
           <img src="/img/carusel/vr.png" alt="" class="image" />
         </div>
         <p>※事前に「cluster」というアプリのダウンロードが必要となります。</p>
-        <!--
-        <a
-          href="https://cluster.mu/w/96d71018-b384-491a-8635-8eb9f5d827b7"
-          target="_blank"
-        >
-          <button class="btn-original btn">企画に参加する</button>
-          <p class="text-muted text-center">clusterが開きます</p>
-        </a>
-        -->
         <p>参加するには，現在の時間に対応したボタンを押してください。</p>
-        <a
-          href="https://cluster.mu/e/e6049070-4879-4c59-8497-e824a67fa1b8"
-          target="_brank"
-        >
-          <button class="btn-original">30日(土) 13:00~17:00</button>
-        </a>
-        <a
-          href=" https://cluster.mu/e/e01940ef-1533-4adc-a22f-640c13265787"
-          target="_brank"
-        >
-          <button class="btn-original">30日(土) 16:50~20:50</button>
-        </a>
-        <a
-          href="https://cluster.mu/e/5108c914-8de9-4a60-b140-78eda446cc55"
-          target="_brank"
-        >
-          <button class="btn-original">30日(土) 20:40~24:40</button>
-        </a>
-        <a
-          href="https://cluster.mu/e/01e154da-bd42-4248-b0e2-d853f57898ca"
-          target="_brank"
-        >
-          <button class="btn-original">31日(日) 00:30~04:30</button>
-        </a>
-        <a
-          href="https://cluster.mu/e/e2d4564d-4683-461d-9d99-7eeef17e179d"
-          target="_brank"
-        >
-          <button class="btn-original">31日(日) 04:20~08:20</button>
-        </a>
-        <a
-          href="https://cluster.mu/e/628d5af3-c040-491d-8161-79e30e458db0"
-          target="_brank"
-        >
-          <button class="btn-original">31日(日) 09:30~13:30</button>
-        </a>
-        <a
-          href="https://cluster.mu/e/a58d6473-46ca-4fca-8bc2-1244b78838c0"
-          target="_brank"
-        >
-          <button class="btn-original">31日(日) 13:30~17:30</button>
-        </a>
-        <a
-          href="https://cluster.mu/e/f155ff5b-3eb2-412a-91e4-f8b0d09d0605"
-          target="_brank"
-        >
-          <button class="btn-original">31日(日) 17:30~21:30</button>
-        </a>
+        <div>
+          <a
+            href="https://cluster.mu/e/e6049070-4879-4c59-8497-e824a67fa1b8"
+            target="_brank"
+          >
+            <button class="btn-original">30日(土) 13:00~17:00</button>
+          </a>
+          <a
+            href=" https://cluster.mu/e/e01940ef-1533-4adc-a22f-640c13265787"
+            target="_brank"
+          >
+            <button class="btn-original">30日(土) 16:50~20:50</button>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://cluster.mu/e/5108c914-8de9-4a60-b140-78eda446cc55"
+            target="_brank"
+          >
+            <button class="btn-original">30日(土) 20:40~24:40</button>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://cluster.mu/e/01e154da-bd42-4248-b0e2-d853f57898ca"
+            target="_brank"
+          >
+            <button class="btn-original">31日(日) 00:30~04:30</button>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://cluster.mu/e/e2d4564d-4683-461d-9d99-7eeef17e179d"
+            target="_brank"
+          >
+            <button class="btn-original">31日(日) 04:20~08:20</button>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://cluster.mu/e/628d5af3-c040-491d-8161-79e30e458db0"
+            target="_brank"
+          >
+            <button class="btn-original">31日(日) 09:30~13:30</button>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://cluster.mu/e/a58d6473-46ca-4fca-8bc2-1244b78838c0"
+            target="_brank"
+          >
+            <button class="btn-original">31日(日) 13:30~17:30</button>
+          </a>
+        </div>
+        <div>
+          <a
+            href="https://cluster.mu/e/f155ff5b-3eb2-412a-91e4-f8b0d09d0605"
+            target="_brank"
+          >
+            <button class="btn-original">31日(日) 17:30~21:30</button>
+          </a>
+        </div>
       </div>
     </main>
     <Footer />
