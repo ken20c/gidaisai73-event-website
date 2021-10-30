@@ -16,7 +16,6 @@ export default {
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
-
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: ["@/assets/css/common.css"],
 
@@ -31,6 +30,7 @@ export default {
     // https://go.nuxtjs.dev/eslint
     "@nuxtjs/eslint-module",
     ["@nuxtjs/google-fonts", { families: { "Noto+Sans+JP": true } }],
+    // "@nuxtjs/google-gtag",
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -39,6 +39,7 @@ export default {
     "bootstrap-vue/nuxt",
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
+    ['@nuxtjs/google-gtag', { id: 'G-XDNHH2331ZX', }]
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -46,4 +47,8 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  googleAnalytics: {
+    id: "G-XDNHH2331ZX",
+  },
 };
