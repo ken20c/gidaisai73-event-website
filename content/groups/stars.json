@@ -1,29 +1,21 @@
 {
     "id": "stars",
     "name": "Stars",
-    "description": "",
+    "description": "私たちチアリーダー部は、アクロバットやスタンツをしないダンス中心のソングリーディングチームです! 現在は、感染予防対策をしながら週2日練習をしています! Twitter, Instagramでは、過去のステージ動画も載せているのでチェックしてみてくださいね☆",
     "sns": [
         {
-            "service": "ウェブサイト",
-            "url": ""
-        },
-        {
             "service": "Twitter",
-            "url": ""
+            "url": "https://twitter.com/stars_2002"
         },
         {
             "service": "Instagram",
-            "url": ""
-        },
-        {
-            "service": "YouTube",
-            "url": ""
+            "url": "https://www.instagram.com/gifu.u_stars/"
         }
     ],
     "stage": {
-        "title": "準備中",
-        "description": "",
-        "url": "",
+        "title": "チアリーダー部Stars～岐大祭ステージ2021～",
+        "description": "かわいい曲からかっこいい曲までいろいろな曲を踊りました! 衣装や撮影にもこだわっています!! ぜひ見てもらえると嬉しいです☆",
+        "url": "https://www.youtube.com/watch?v=oA7CPYzKPf0",
         "premiereTime": "14:15"
     }
 }
