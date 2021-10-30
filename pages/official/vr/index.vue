@@ -12,7 +12,7 @@
           <img src="/img/carusel/vr.png" alt="" class="image" />
         </div>
         <p>※事前に「cluster」というアプリのダウンロードが必要となります。</p>
-
+        <!--
         <a
           href="https://cluster.mu/w/96d71018-b384-491a-8635-8eb9f5d827b7"
           target="_blank"
@@ -20,6 +20,7 @@
           <button class="btn-original btn">企画に参加する</button>
           <p class="text-muted text-center">clusterが開きます</p>
         </a>
+        -->
       </div>
     </main>
     <Footer />
