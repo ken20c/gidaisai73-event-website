@@ -39,7 +39,7 @@
           <!-- <button class="btn btn-original-primary disabled" disabled>
             公開までしばらくお待ちください
           </button> -->
-          <a :href="group.stage.url" target="_blank">
+          <a :href="'stage' in group ? group.stage.url : ''" target="_blank">
             <button class="btn btn-original-primary">視聴する</button>
           </a>
           <p class="text-muted text-center">YouTube が開きます</p>
