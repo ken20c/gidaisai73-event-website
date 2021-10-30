@@ -15,20 +15,6 @@
         <p>参加するには，現在の時間に対応したボタンを押してください。</p>
         <div>
           <a
-            href="https://cluster.mu/e/e6049070-4879-4c59-8497-e824a67fa1b8"
-            target="_brank"
-          >
-            <button class="btn-original">30日(土) 13:00~17:00</button>
-          </a>
-          <a
-            href=" https://cluster.mu/e/e01940ef-1533-4adc-a22f-640c13265787"
-            target="_brank"
-          >
-            <button class="btn-original">30日(土) 16:50~20:50</button>
-          </a>
-        </div>
-        <div>
-          <a
             href="https://cluster.mu/e/5108c914-8de9-4a60-b140-78eda446cc55"
             target="_brank"
           >
