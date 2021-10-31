@@ -13,6 +13,7 @@
         </div>
         <p>※事前に「cluster」というアプリのダウンロードが必要となります。</p>
         <p>参加するには，現在の時間に対応したボタンを押してください。</p>
+        <!--
         <div>
           <a
             href="https://cluster.mu/e/5108c914-8de9-4a60-b140-78eda446cc55"
@@ -36,7 +37,7 @@
           >
             <button class="btn-original">31日(日) 04:20~08:20</button>
           </a>
-        </div>
+        </div>-->
         <div>
           <a
             href="https://cluster.mu/e/628d5af3-c040-491d-8161-79e30e458db0"
